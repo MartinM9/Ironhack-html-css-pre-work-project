@@ -1,0 +1,249 @@
+/* Styles applying to multiple elements */
+
+  body, h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+   font-family: 'Roboto', sans-serif;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.button {
+  text-decoration: none;
+  color: #FFF;
+  display: block;
+  width: 130px;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+/* Nav bar section */
+
+nav {
+  background-color: #C12127;
+  color: rgba(255, 255, 255, 0.8);
+  padding-top: 15px;
+  height: 35px;
+  font-weight: 300;
+  font-size: 0.9em;
+}
+
+nav a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.top-left {
+  float: left;
+  margin-left: 15px; 
+}
+
+.heart {
+  margin-right: 10px;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* Header section */
+
+#header {
+  background: url("images/city-scape.svg");
+  height: 450px;
+  color: #FFF;
+}
+
+#header .header-search-bar {
+  padding: 20px;
+}
+
+#header .header-search-bar .npm-logo {
+  width: 10%;
+  float: left;
+}
+
+#header .header-search-bar .search-bar {
+  display: inline-block;
+  width: 70%;
+  background-color: rgb(31, 82, 111);
+  height: 20px;
+  padding: 10px;
+  border: 1px solid lightslategray;
+  float: left;
+  margin: 0 15px;
+}
+
+#header .header-search-bar p { 
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 300;
+  float: left;
+  display: inline-block;
+  margin: 10px auto;
+}
+
+#header .header-search-bar .bear-logo {
+  width: 50px;
+  float: left;
+  margin-left: 10px;
+}
+
+#header .header-text {
+  width: 40%;
+  margin-left: 20%;
+}
+
+#header .header-text h1 {
+  font-weight: 300;
+  font-size: 3em;
+}
+
+#header .header-text .header-text-container {
+  width: 70%;
+}
+
+#header .header-text p {
+  font-weight: 400;
+  font-size: 1.1em;
+  line-height: 1.4em;
+}
+
+#header .header-text a {
+  background-color: rgb(240, 146, 51);
+}
+
+/* Collaboration section */
+
+#collaboration-section {
+  background-color: rgb(39, 53, 71);
+  color:  #FFF;
+}
+
+#collaboration-section .container {
+  width: 75%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+#collaboration-section .img-collaboration {
+  width: 500px;
+}
+
+#collaboration-section .collaboration-text {
+  float: right;
+}
+
+#collaboration-section .collaboration-text h2 {
+  font-weight: 300;
+  font-size: 2em;
+}
+
+#collaboration-section .collaboration-text ul li {
+  line-height: 2em;
+  font-weight: 300;
+}
+
+#collaboration-section .collaboration-text .sign-up {
+  background-color: rgb(203, 56, 55);
+}
+
+#collaboration-section .collaboration-text p {
+  font-weight: 300;
+}
+
+#collaboration-section .collaboration-text p a {
+  text-decoration: none;
+  color: #FFF;
+  font-weight: 400;
+}
+
+/* What is npm section */
+
+#install-section {
+  background: url("images/forklift.svg");
+  background-size: cover;
+  height: 400px;
+}
+
+#install-section .install-section-container {
+  color: #FFF;
+  width: 350px;
+  position: relative;
+  top: 75px;
+  left: 200px;
+}
+
+#install-section .install-section-container h2 {
+  font-weight: 300;
+  font-size: 2em;
+}
+
+#install-section .install-section-container p {
+  font-weight: 300;
+  font-size: 1.1em;
+  line-height: 1.4em;
+  margin-bottom: 25px;
+}
+
+#install-section .install-section-container .install-button {
+  background-color: rgb(49, 68, 88);
+}
+
+/* What can you make? section */
+
+#discover-section {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+#discover-section h2, h3 {
+  color: rgb(83, 88, 98);
+}
+
+#discover-section p {
+  color: rgb(135, 145, 156);
+}
+
+.discover-section-heading {
+  text-align: center;
+  margin: 50px 0 40px 0;
+}
+
+.discover-section-heading h2 {
+  font-weight: 300;
+  font-size: 2em;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+.discover-section-columns img {
+  margin-bottom: 20px;
+}
+
+.discover-section-columns p {
+  font-weight: 400;
+  line-height: 1.6em;
+  display: inline-block;
+  padding: 0 40px;
+}
+
+.discover-section-columns a {
+  text-decoration: none;
+  color: rgb(208, 74, 73);
+}
